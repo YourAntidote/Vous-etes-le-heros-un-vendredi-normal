@@ -1,0 +1,390 @@
+<mxfile host="65bd71144e">
+    <diagram id="0-Ar0pWBnMwnYlJXhgmo" name="Page-1">
+        <mxGraphModel dx="1506" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Vous sortez d'un petit magasin direction votre voiture.&amp;nbsp;&lt;/font&gt;Vous voyez&amp;nbsp;la silhouette d'un homme qui essaye d'arracher la sacoche d'une madame.&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="5" width="350" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="2. Intervenir" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="1. Vous&lt;br&gt;composez&lt;br&gt;le 911" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="3" edge="1">
+                    <mxGeometry x="-0.7475" relative="1" as="geometry">
+                        <mxPoint x="128" y="80" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="220" y="135"/>
+                            <mxPoint x="220" y="100"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Que faîtes-vous?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;spacingLeft=22;spacingRight=19;spacingBottom=-1;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="100" width="178" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="308" y="320" as="sourcePoint"/>
+                        <mxPoint x="358" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="3. Ne pas intervenir" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="568" y="320" as="sourcePoint"/>
+                        <mxPoint x="548" y="250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="580" y="135"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="6" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Le braqueur sait que vous l'avez vu, à présent il vous menace avec son fusil de descendre du véhicule." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="85" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Meutre, action, police" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="8" y="10" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Non, original" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="8" y="60" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Un lundi normal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="11" y="110" width="76" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;i&gt;L'homme sors &lt;br&gt;de l'ombre&lt;/i&gt;" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="16" target="17" edge="1">
+                    <mxGeometry x="0.0077" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Vous criez afin de distraire le voleur, la dame profite de l'occasion pour s'enfuir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="319" y="209.38" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;font face=&quot;helvetica&quot;&gt;2. Vous essayez &lt;br&gt;&quot;La police est là!&quot;&lt;/font&gt;" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="17" edge="1">
+                    <mxGeometry x="-0.8515" relative="1" as="geometry">
+                        <mxPoint x="500" y="790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="389" y="520"/>
+                            <mxPoint x="389" y="670"/>
+                            <mxPoint x="389" y="790"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="1. Vous courrez" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="17" target="21" edge="1">
+                    <mxGeometry x="-0.8165" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="403"/>
+                            <mxPoint x="138" y="403"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="320" y="450" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;div&gt;Il &lt;span&gt;sort&amp;nbsp;&lt;/span&gt;&lt;span&gt;son&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;revolver et le pointe&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;sur vous,&amp;nbsp;&lt;/span&gt;&lt;span&gt;que&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;faites-vous?&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="321.5" y="343.13" width="135" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;" parent="1" source="21" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="138" y="1320"/>
+                            <mxPoint x="596" y="1320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Une voiture arrivant trop vite vous rentre dedans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="88" y="1120" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="L'agresseur est confus, baisse sa garde sans s'en rendre compte, vous sautez sur lui&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="550" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="3. Vous faites à &lt;br&gt;semblant que &lt;br&gt;vous le &lt;br&gt;reconnaissez" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="17" target="24" edge="1">
+                    <mxGeometry x="-0.0499" relative="1" as="geometry">
+                        <mxPoint x="388" y="540" as="sourcePoint"/>
+                        <mxPoint x="500" y="550" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="403"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Vous avez réussi à&amp;nbsp;&lt;br&gt;le faire tomber" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="24" target="34" edge="1">
+                    <mxGeometry x="0.7269" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="388" y="890" as="sourcePoint"/>
+                        <mxPoint x="388" y="830" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="740"/>
+                            <mxPoint x="500" y="830"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;" parent="1" source="34" target="156" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="896"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="180" value="1. Le maintenir à terre" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FFFFFF;rotation=0;" parent="179" vertex="1" connectable="0">
+                    <mxGeometry x="-0.7912" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-84" y="78" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="En tombant, &lt;br style=&quot;font-size: 11px&quot;&gt;il a échappé son revolver&lt;br&gt;&amp;nbsp;proche de lui. Il s'apparaitre &lt;br&gt;à se relever." style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontSize=11;spacingTop=0;spacingBottom=7;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="841" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;font style=&quot;font-size: 12px&quot;&gt;2. Vous donnez&lt;br&gt;un coup de pied&lt;br&gt;à son arme&lt;/font&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="36" edge="1">
+                    <mxGeometry x="0.2954" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="896" as="sourcePoint"/>
+                        <mxPoint x="780" y="931" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="896"/>
+                            <mxPoint x="640" y="896"/>
+                            <mxPoint x="735" y="896"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="139" value="&lt;i&gt;&lt;font color=&quot;#ffff00&quot;&gt;[🔒 si le couteau est &lt;br&gt;ni sur le joueur ni &lt;br&gt;à terre&amp;nbsp;proche]&lt;br&gt;&lt;/font&gt;&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" parent="35" vertex="1" connectable="0">
+                    <mxGeometry x="0.7198" relative="1" as="geometry">
+                        <mxPoint x="-71" y="-172" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="170" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;" parent="1" source="36" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="735" y="1320"/>
+                            <mxPoint x="596" y="1320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Il récupère votre couteau et vous poignarde&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="1120" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="1. Le&lt;br&gt;prendre" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="47" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="2. Le laisser" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="47" target="57" edge="1">
+                    <mxGeometry x="-0.087" relative="1" as="geometry">
+                        <mxPoint x="868" y="316.3529411764707" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Vous avez une &lt;br&gt;couteau suisse dans le porte-goblet." style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="262.5" width="140" height="107.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Vous sortez du véhicule" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="53" target="56" edge="1">
+                    <mxGeometry x="0.8299" y="-10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="558" y="420"/>
+                            <mxPoint x="730" y="420"/>
+                        </Array>
+                        <mxPoint x="10" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Vous récupez discrètement le couteau&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="513" y="289.38" width="90" height="53.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;font style=&quot;font-size: 11px&quot;&gt;1. Vous faîtes à&lt;br&gt;semblant de&lt;br&gt;parler une &lt;br&gt;autre&amp;nbsp;langue&lt;/font&gt;" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="56" target="24" edge="1">
+                    <mxGeometry x="0.1753" y="20" relative="1" as="geometry">
+                        <mxPoint x="550" y="680" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="590" y="490"/>
+                            <mxPoint x="590" y="590"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="&lt;font style=&quot;font-size: 11px&quot;&gt;3. Mentir&lt;/font&gt;" style="edgeStyle=none;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="56" target="142" edge="1">
+                    <mxGeometry x="-0.4498" relative="1" as="geometry">
+                        <mxPoint x="900" y="750" as="targetPoint"/>
+                        <mxPoint x="850" y="490" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="960" y="490"/>
+                            <mxPoint x="990" y="490"/>
+                            <mxPoint x="990" y="520"/>
+                            <mxPoint x="990" y="560"/>
+                            <mxPoint x="990" y="720"/>
+                            <mxPoint x="990" y="730"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="&lt;i style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;&lt;font color=&quot;#ffff00&quot;&gt;[&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;🔒&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;&lt;font color=&quot;#ffff00&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;si le joueur &lt;br&gt;n'a pas le couteau]&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#FFFF00;" parent="90" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1379" y="1" relative="1" as="geometry">
+                        <mxPoint x="-141" y="-34" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#FFFFFF;" parent="1" source="56" target="124" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="127" value="&lt;i style=&quot;color: rgb(255 , 255 , 0) ; font-size: 10px&quot;&gt;[Chemin si le joueur &lt;br&gt;possède le couteau]&lt;br&gt;&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" parent="126" vertex="1" connectable="0">
+                    <mxGeometry x="0.5278" y="4" width="50" height="20" relative="1" as="geometry">
+                        <mxPoint x="-29" y="-4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="Il vous demande&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;si vous êtes muni&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;d'une arme" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="664" y="444.13" width="132" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="57" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="961" y="420"/>
+                            <mxPoint x="730" y="420"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Vous décidez le laisser le couteau&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="293.13" width="101" height="46.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#FFFFFF;" parent="1" source="72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="585" y="790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;span&gt;Vous&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;profitez de la fenêtre de distraction&amp;nbsp;pour lui&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;sauter dessus&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="710" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="endArrow=classic;html=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="56" target="142" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="761" y="550" as="sourcePoint"/>
+                        <mxPoint x="900" y="750" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="580"/>
+                            <mxPoint x="830" y="580"/>
+                            <mxPoint x="901" y="580"/>
+                            <mxPoint x="900" y="720"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="&lt;i style=&quot;font-size: 10px&quot;&gt;[Chemin si le joueur &lt;br style=&quot;font-size: 10px&quot;&gt;ne possède pas &lt;br&gt;le couteau]&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FFFF00;" parent="84" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2139" y="1" relative="1" as="geometry">
+                        <mxPoint x="13" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="&lt;font style=&quot;font-size: 11px&quot;&gt;2. Dire la vérité&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FFFFFF;" parent="84" vertex="1" connectable="0">
+                    <mxGeometry x="-0.8485" y="-2" relative="1" as="geometry">
+                        <mxPoint y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="Recommencer" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="1360" width="112" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;" parent="1" source="117" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1070" y="1320"/>
+                            <mxPoint x="596" y="1320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;Le voleur est partie avec votre véhicule.&lt;br&gt;Vous êtes sain et sauf.&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;arcSize=0;strokeWidth=3;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="1120" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontColor=#FFFFFF;" parent="1" source="124" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="585" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="130" value="1. Le lancer à&amp;nbsp;&lt;br&gt;ses pieds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" parent="129" vertex="1" connectable="0">
+                    <mxGeometry x="0.2329" y="-3" relative="1" as="geometry">
+                        <mxPoint x="3" y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="133" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="124" target="142" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="799" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="730"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="134" value="2. Le lancer le loin&lt;br&gt;sur le côté" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" parent="133" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5957" relative="1" as="geometry">
+                        <mxPoint x="81" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="124" value="Il vous demande&lt;br style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;de la mettre &lt;br&gt;à&amp;nbsp;terre" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="620" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" style="edgeStyle=none;html=1;fontSize=11;fontColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="142" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="790" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="810" y="780"/>
+                            <mxPoint x="780" y="780"/>
+                            <mxPoint x="680" y="780"/>
+                            <mxPoint x="680" y="790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="147" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 11px;&quot;&gt;1. Vous lancez &lt;br style=&quot;font-size: 11px;&quot;&gt;le couteau¸&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;&lt;i style=&quot;font-size: 11px; color: rgb(240, 240, 240);&quot;&gt;&lt;font color=&quot;#ffff00&quot; style=&quot;font-size: 11px;&quot;&gt;[&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 11px; color: rgb(240, 240, 240);&quot;&gt;🔒&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;font-size: 11px; color: rgb(240, 240, 240);&quot;&gt;&lt;font color=&quot;#ffff00&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;si le joueur&lt;br style=&quot;font-size: 11px;&quot;&gt;n'a pas le couteau]&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#000000;" parent="145" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3472" y="-2" relative="1" as="geometry">
+                        <mxPoint x="27" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="150" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="142" target="117" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1090" y="780" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1070" y="780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="163" value="3. Vous le &lt;br style=&quot;font-size: 11px;&quot;&gt;laissez partir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" parent="150" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3241" relative="1" as="geometry">
+                        <mxPoint x="-50" y="-51" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="151" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="142" target="154" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="900" y="900" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="153" value="2. Lui sauter dessus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" parent="151" vertex="1" connectable="0">
+                    <mxGeometry x="0.244" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="-150" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" value="&lt;span style=&quot;font-weight: 400&quot;&gt;Il vous oblige de &lt;br&gt;vous écartez du chemin &lt;br&gt;afin qu'il accède à&lt;br&gt;&amp;nbsp;votre voiture&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=0;fontStyle=1;arcSize=3;spacingLeft=2;" parent="1" vertex="1">
+                    <mxGeometry x="828" y="730" width="145" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;" parent="1" source="154" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="1320"/>
+                            <mxPoint x="730" y="1320"/>
+                            <mxPoint x="596" y="1320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="154" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;Vous lui avez fait peur et il vous a tiré dessus par accident&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="1120" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;" parent="1" source="156" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="1320"/>
+                            <mxPoint x="596" y="1320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="156" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Les autorités sont arrivées juste à temps.&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&amp;nbsp;Le cambrioleur est arrêté&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;et vous rentrez sain et sauf&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=none;fontColor=#ffffff;arcSize=0;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="215" y="1120" width="150" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
