@@ -9,3 +9,5 @@
 **Palette de couleur:** [Coolors.co](https://coolors.co/850000-c20a0a-f00606-fa5a11-e64900)
 
 ## Diagramme ##
+
+![Diagramme.png](/assets/Images/diagramme.png)
