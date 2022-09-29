@@ -36,7 +36,8 @@ let chaptersObj = {
                 action:"goToChapter('ecrasement')"
             }, 
             option2: {
-                text: "Faire à croire que la police est derrière lui", action:"goToChapter('distration')"
+                text: "Faire à croire que la police est derrière lui", 
+                action:"goToChapter('distration')"
             },
             option3: {
                 text: "Vous faites à semblant que vous le reconnaissez", 
@@ -83,10 +84,12 @@ let chaptersObj = {
         img: "../assets/Images/tomber.png",
         options: {
             option1: {
-                text: "Le maintenir à terre", action:"goToChapter('arreter')"
+                text: "Le maintenir à terre", 
+                action:"goToChapter('arreter')"
             },
             option2: {
-                text: "Donner un coup de pied à son arme", action:"goToChapter('arreter')"
+                text: "Donner un coup de pied à son arme", 
+                action:"goToChapter('arreter')"
             },
         },
     },
@@ -96,10 +99,12 @@ let chaptersObj = {
         img: "../assets/Images/tomber.png",
         options: {
             option1: {
-                text: "Le maintenir à terre", action:"goToChapter('arreter')"
+                text: "Le maintenir à terre", 
+                action:"goToChapter('arreter')"
             },
             option2: {
-                text: "Donner un coup de pied à son arme", action:"goToChapter('stab')"
+                text: "Donner un coup de pied à son arme", 
+                action:"goToChapter('stab')"
             },
         },
     },
@@ -119,7 +124,8 @@ let chaptersObj = {
         img: "../assets/Images/voiture.png",
         options: {
             option1: {
-                text: "Oh oh...", action:"goToChapter('couteau')"
+                text: "Oh oh...", 
+                action:"goToChapter('couteau')"
             },
         },
     },
@@ -127,8 +133,16 @@ let chaptersObj = {
         subtitle: "Couteau suisse",
         text: "Vous avez un couteau suisse dans votre porte-goblet.",
         img: "../assets/Images/couteau_voiture.png",
-        options: {option1: {text: "Le prendre", action:"goToChapter('questionxxx')"},
-                  option2: {text: "Le laisser", action:"goToChapter('question')"},},
+        options: {
+            option1: {
+                text: "Le prendre", 
+                action:"goToChapter('questionxxx')"
+            },
+            option2: {
+                text: "Le laisser", 
+                action:"goToChapter('question')"
+            },
+        },
     },
     question : {
         subtitle: "Question",
@@ -136,7 +150,8 @@ let chaptersObj = {
         img: "../assets/Images/couteau_voiture_pris.png",
         options: {
             option1: {
-                text: "Dire la vérité", action:"goToChapter('carJacking')"
+                text: "Dire la vérité", 
+                action:"goToChapter('carJacking')"
             },
             option2: {
                 text: "Vous faîtes à semblant de parler une autre langue", 
