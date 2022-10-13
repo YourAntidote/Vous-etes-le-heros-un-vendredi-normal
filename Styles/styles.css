@@ -55,8 +55,9 @@ button {
   border-radius: 50px;
 }
 .texte {
+  width: 500px;
   display: flex;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 100;
   color: #fff;
   flex-direction: column;
@@ -65,17 +66,19 @@ button {
   font-family: "FFF";
 }
 img {
-  width: 40%;
-  height: auto;
+  object-fit: cover;
+  width: 500px;
+  height: 250px;
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+
   border-radius: 50px;
-  outline: solid 5px #fff;
+  outline: solid 2px #fff;
   outline-offset: 0px;
 }
 .btn {
+  width: 150px;
   font-family: Arial;
   font-weight: 600;
   border: none;
@@ -88,7 +91,7 @@ img {
   height: 40px;
 }
 .barre {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 button:hover {
