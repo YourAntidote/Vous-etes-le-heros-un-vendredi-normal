@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Un vendredi normal</title>
     <link rel="stylesheet" href="./Styles/styles.css" />
-</head>
-<body>
-  
-    <div class="game">  
-        <div class="logo">Un lundi normal</div>
-        <div class="chapitre">Sed ut perspiciatis</div>
-        <div class="texte">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
-        <div class="image">
-            <img src="./assets/Images/homme.jpg">
-
-        </div>
-        <div class="barre">
-            <button class="btn no1">ullamco laboris</button>
-            <button class="btn no2">nisi ut aliquip</button>
-            <button class="btn no3">ex ea commodo</button>
-        </div>
+  </head>
+  <body>
+    <div class="game">
+      <div class="logo">Un lundi normal</div>
+      <div class="chapitre">Sortie du magasin</div>
+      <div class="texte">
+        Vous sortez d'un petit magasin et vous marchez vers votre voiture non
+        loin. Cependant, en tournant la tête, vous voyez un homme avec une
+        cagoule qui essaie d'arracher la saccoche d'une dame.
+      </div>
+      <div class="image" id="image">
+        <img src="./assets/Images/vole_saccoche.png" />
+      </div>
+      <div class="barre">
+        <button type="button" class="btn" onclick="goToChapter('intervenir')">
+          Intervenir
+        </button>
+        <button type="button" class="btn vide">ex ea commodo</button>
+        <button
+          type="button"
+          class="btn"
+          onclick="goToChapter('pas_intervenir')"
+        >
+          Ne pas intervenir
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
