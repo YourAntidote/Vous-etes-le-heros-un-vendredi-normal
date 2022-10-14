@@ -2,6 +2,10 @@
   font-family: "FFF";
   src: url("../assets/Font/FFF.ttf") format("truetype");
 }
+@font-face {
+  font-family: "made_tom_soft";
+  src: url("../assets/Font/made_tom_soft.otf") format("opentype");
+}
 
 html {
   background-image: linear-gradient(#850000, #ff2626);
@@ -49,7 +53,7 @@ body {
 .chapitre {
   font-size: 40px;
   color: #fff;
-  font-family: "FFF";
+  font-family: "made_tom_soft";
 }
 button {
   border-radius: 50px;
@@ -63,7 +67,7 @@ button {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-family: "FFF";
+  font-family: "arial";
 }
 img {
   object-fit: cover;
@@ -100,4 +104,8 @@ button:hover {
 }
 button:checked {
   background-color: #fff;
+}
+
+.none {
+  display: none;
 }
