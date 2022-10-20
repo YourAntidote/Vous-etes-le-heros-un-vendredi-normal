@@ -1,15 +1,16 @@
+
 let chaptersObj = {
   depart: {
     subtitle: "Sortie du magasin",
-    text: "Vous sortez d'un petit magasin et vous marchez vers votre voiture non loin. Cependant, en tournant la tête, vous voyez un homme avec une cagoule qui essaie d'arracher la saccoche d'une dame.",
-    img: "./assets/Images/vole_saccoche.png",
+    text: "Vous sortez d'un petit magasin et vous marchez vers votre voiture non loin. Cependant, en tournant la tête, vous voyez un homme avec une cagoule qui essaie d'arracher la sacoche d'une dame.",
+    img: "./assets/Images/vole_sacoche.png",
     options: [
       {
-        text: "Intervenir",
+        text: "Intervenir 👍",
         action: "goToChapter('intervenir')",
       },
       {
-        text: "Ne pas intervenir",
+        text: "Ne pas intervenir 👎",
         action: "goToChapter('pas_intervenir')",
       },
     ],
@@ -17,30 +18,30 @@ let chaptersObj = {
 
   intervenir: {
     subtitle: "Intervenir",
-    text: "Votre cri à distrait le voleur, ainsi cela à permis à la dame de s'enfuir. Par contre le voleur n'a pas aimé votre petit jeu et marche dans votre direction.",
+    text: "Votre cri a distrait le voleur, ainsi cela à permis à la dame de s'enfuir. Par contre le voleur n'a pas aimé votre petit jeu et marche dans votre direction.",
     img: "./assets/Images/pointe_doigt.png",
     options: [
       {
-        text: "Oh oh..",
+        text: "Oh oh...😬",
         action: "goToChapter('menace')",
       },
     ],
   },
   menace: {
     subtitle: "Menace",
-    text: "À présent que vous avez tout son attention, le voleur sors son fusil et vous pointe avec en vous menacant de vous tuez. Que feriez-vous?",
+    text: "À présent que vous avez toute son attention, le voleur sort son fusil et vous pointe avec en vous menaçant de vous tuez. Que feriez-vous?",
     img: "./assets/Images/pointe_fusil.png",
     options: [
       {
-        text: "Partir à courir",
+        text: "S'enfuir 🏃‍♂️💨",
         action: "goToChapter('accident')",
       },
       {
-        text: "Faire à croire que la police est derrière lui",
-        action: "goToChapter('distration')",
+        text: "Faire à croire que la police est derrière lui ❗👮‍♂️👈",
+        action: "goToChapter('distraction')",
       },
       {
-        text: "Faire à semblant de le reconnaître",
+        text: "Faire à semblant de le reconnaître 👋😄",
         action: "goToChapter('confus')",
       },
     ],
@@ -51,60 +52,34 @@ let chaptersObj = {
     img: "./assets/Images/accident.png",
     options: [
       {
-        text: "Recommencer",
+        text: "Recommencer 🔄",
         action: "goToChapter('depart')",
       },
     ],
   },
-  distration: {
-    subtitle: "Distration",
-    text: "Vous avez réussi à le distraire et vous protifez de l'occasion pour y sauter dessus.",
+  distraction: {
+    subtitle: "Distraction",
+    text: "Vous avez réussi à le distraire et vous profitez de l'occasion pour y sauter dessus.",
     img: "./assets/Images/attaque.jpg",
     options: [
       {
-        text: "À l'attaaaaque!",
+        text: "À l'attaaaaque! 🤛💨",
         action: "goToChapter('tomber')",
       },
     ],
   },
-  distrationxxx: {
-    subtitle: "Distration",
-    text: "Vous avez réussi à le distraire et vous protifez de l'occasion pour y sauter dessus.",
-    img: "./assets/Images/attaque.jpg",
-    options: [
-      {
-        text: "À l'attaaaaque!",
-        action: "goToChapter('tomberxxx')",
-      },
-    ],
-  },
   tomber: {
-    subtitle: "Ennemi tomber à terre",
+    subtitle: "Ennemi à terre!",
     text: "En tombant à terre, le voleur échappé son fusil à côté de lui, et il s'empresse de se relevé afin d'aller le récupérer.",
     img: "./assets/Images/tomber.png",
     options: [
       {
-        text: "Le maintenir à terre",
+        text: "Le maintenir à terre 😵💫",
         action: "goToChapter('arreter')",
       },
       {
-        text: "Donner un coup de pied à son arme",
-        action: "goToChapter('arreter')",
-      },
-    ],
-  },
-  tomberxxx: {
-    subtitle: "Ennemi tomber à terre",
-    text: "En tombant à terre, le voleur échappé son fusil à côté de lui, et il s'empresse de se relevé afin d'aller le récupérer.",
-    img: "./assets/Images/tomber.png",
-    options: [
-      {
-        text: "Le maintenir à terre",
-        action: "goToChapter('arreter')",
-      },
-      {
-        text: "Donner un coup de pied à son arme",
-        action: "goToChapter('stab')",
+        text: "Donner un coup de pied à son arme 🔫",
+        action: "chute()",
       },
     ],
   },
@@ -114,7 +89,7 @@ let chaptersObj = {
     img: "./assets/Images/arreter.png",
     options: [
       {
-        text: "Recommencer",
+        text: "Recommencer 🔄",
         action: "goToChapter('depart')",
       },
     ],
@@ -125,57 +100,42 @@ let chaptersObj = {
     img: "./assets/Images/pointe_fusil.png",
     options: [
       {
-        text: "Oh oh...",
+        text: "Oh oh...😬",
         action: "goToChapter('couteau')",
       },
     ],
   },
   couteau: {
     subtitle: "Se défendre?",
-    text: "Vous avez un de chasse dans votre coffre à gant.",
+    text: "Vous avez un couteau de chasse dans votre coffre à gant.",
     img: "./assets/Images/couteau_voiture.png",
     options: [
       {
-        text: "Le prendre",
-        action: "goToChapter('questionxxx')",
+        text: "Le prendre🔪",
+        action: "objetcdc()",
       },
       {
-        text: "Le laisser",
+        text: "Le laisser❌",
         action: "goToChapter('question')",
       },
     ],
   },
   question: {
     subtitle: "Question",
-    text: "Vous descendez du véhicule comme il vous l'a demandé. Il vous demande si vous êtes armé.",
+    text: "Vous descendez du véhicule comme il vous l'a demandé. À présent, il vous demande si vous êtes armé.",
     img: "./assets/Images/pointe_doigt.png",
     options: [
       {
-        text: "Dire la vérité",
-        action: "goToChapter('carJacking')",
+        text: "Dire la vérité 🤔",
+        action: "honnete()",
       },
       {
-        text: "Essayer de parler une autre langue",
+        text: "Essayer de parler une autre langue " + "<br>" + "🤨💬❓",
         action: "goToChapter('confus')",
       },
-    ],
-  },
-  questionxxx: {
-    subtitle: "Question",
-    text: "Vous descendez du véhicule comme il vous l'a demandé. Il vous demande si vous êtes armé.",
-    img: "./assets/Images/pointe_doigt.png",
-    options: [
       {
-        text: "Dire la vérité",
-        action: "goToChapter('verite')",
-      },
-      {
-        text: "Essayer de parler une autre langue",
-        action: "goToChapter('confusxxx')",
-      },
-      {
-        text: "Mentir",
-        action: "goToChapter('carJackingxxx')",
+        text: "Mentir 🤐",
+        action: "menssonge()",
       },
     ],
   },
@@ -185,90 +145,100 @@ let chaptersObj = {
     img: "./assets/Images/confus.png",
     options: [
       {
-        text: "À l'attaaaaaque!",
+        text: "À l'attaaaaque! 🤛💨",
         action: "goToChapter('tomber')",
       },
     ],
   },
-  confusxxx: {
-    subtitle: "Confus",
-    text: "L'agresseur est confus et énervé et baisse sa garde sans s'en rednre compte, vous profitez de l'occasion pour y sauter dessus.",
-    img: "./assets/Images/confus.png",
-    options: [
-      {
-        text: "À l'attaaaaaque!",
-        action: "goToChapter('tomberxxx')",
-      },
-    ],
-  },
   verite: {
-    subtitle: "Vériter",
-    text: "Vous avouez la vérité sur le couteau et il vous demande de vous lui donner.",
+    subtitle: "Vérité",
+    text: "Vous avouez la vérité sur le couteau et il vous demande de lui donner.",
     img: "./assets/Images/fusil_main.png",
     options: [
       {
-        text: "Lui remettre dans sa main",
+        text: "Lui remettre dans sa main 🤲",
         action: "goToChapter('carJacking')",
       },
       {
-        text: "Le lancer à ses pieds",
-        action: "goToChapter('distrationxxx')",
+        text: "Le lancer à ses pieds 👇🦶",
+        action: "goToChapter('distraction')",
       },
     ],
   },
-
+  mauvais_menteur: {
+    subtitle: "Mauvais menteur",
+    text: "Il vous demande de lui donner.",
+    img: "./assets/Images/fusil_main.png",
+    options: [
+      {
+        text:"Euuuh...enfaite 😅",
+        action: "goToChapter('enerve')",
+      },
+    ],
+  },
+  enerve: {
+    subtitle: "Homme en colère",
+    text: "Il n'a vraiment pas aimé que vous vous moquiez de lui et il est très énervé.",
+    img: "./assets/Images/confus.png",
+    options: [
+      {
+        text: "Et meeeeeer--😬",
+        action: "goToChapter('homicide')",
+      },
+    ],
+  },
   stab: {
     subtitle: "Mort - Poignardé",
-    text: "Vous êtes parvenu à éloigné son arme à feu, mais il a récupérer votre couteau et il vous a poignardé.",
+    text: "Vous êtes parvenu à éloigner son arme à feu, mais il a récupéré votre couteau et il vous a poignardé.",
     img: "./assets/Images/stab.jpg",
     options: [
       {
-        text: "Recommencer",
+        text: "Recommencer 🔄",
         action: "goToChapter('depart')",
       },
     ],
   },
   carJacking: {
-    subtitle: "Car jacking",
-    text: "Le cambrioleur vous menace de vous écartez du chemin afin qu'il accède à votre voiture.",
+    subtitle: "Carjacking",
+    text: "Le cambrioleur vous menace de vous écarter du chemin afin qu'il accède à votre voiture.",
     img: "./assets/Images/car_jacking.png",
     options: [
       {
-        text: "Le laisser passer",
+        text: "Le laisser passer 🖖",
         action: "goToChapter('bye')",
       },
       {
-        text: "Lui sauter dessus",
+        text: "Lui sauter dessus 🏃‍♂️💨",
         action: "goToChapter('homicide')",
       },
     ],
   },
-  carJackingxxx: {
-    subtitle: "Car jacking",
-    text: "Le cambrioleur vous menace de vous écartez du chemin afin qu'il accède à votre voiture.",
+  lancer: {
+    subtitle: "Carjacking",
+    text: "Le cambrioleur vous menace de vous écarter du chemin afin qu'il accède à votre voiture.",
     img: "./assets/Images/car_jacking.png",
     options: [
       {
-        text: "Vous laisser passer",
+        text: "Vous laisser passer 🖖",
         action: "goToChapter('bye')",
       },
       {
-        text: "Vous lancer votre couteau",
-        action: "goToChapter('tomberxxx')",
+        text: "Vous lancer votre couteau 🔪💨",
+        action: "goToChapter('distraction')",
       },
       {
-        text: "Sauter sur lui",
+        text: "Sauter sur lui 🏃‍♂️💨",
         action: "goToChapter('homicide')",
       },
     ],
   },
   homicide: {
-    subtitle: "Homicide",
-    text: "L'agresseur vous a vu venir et vous a tiré une balle dans la poitrine sans hésiter. Vous êtes mort.",
+    subtitle: "Mort - Homicide",
+    text: "L'agresseur vous a tiré une balle dans la poitrine. Vous êtes mort.",
     img: "./assets/Images/homicide.jpg",
     options: [
       {
-        text: "Recommencer",
+        text: "Recommencer 🔄",
         action: "goToChapter('depart')",
       },
     ],
@@ -279,12 +249,13 @@ let chaptersObj = {
     img: "./assets/Images/voiture_au_loin.jpg",
     options: [
       {
-        text: "Recommencer",
+        text: "Recommencer 🔄",
         action: "goToChapter('depart')",
       },
     ],
   },
 };
+
 
 function goToChapter(chapterName) {
   let chapitreTitre = chaptersObj[chapterName]["subtitle"];
@@ -307,10 +278,51 @@ function goToChapter(chapterName) {
       button[index].innerHTML = chapitreOptions[index].text;
       button[index].setAttribute("onclick", chapitreOptions[index].action);
       button[index].classList.remove("none");
-      console.log(button[index]);
     } else {
       button[index].classList.add("none");
     }
   }
 }
+
+let knifeFounded = false;
+
+function objetcdc() {
+  knifeFounded = true;
+  console.log("🔪");
+  goToChapter("question");
+
+}
+
+function chute(){
+  if (knifeFounded == true){
+    goToChapter('stab');
+  } else {
+    goToChapter('arreter');
+  }
+}
+
+function menssonge() {
+  if (knifeFounded == true){
+    goToChapter('verite');
+  } else {
+    goToChapter('mauvais_menteur');
+  }
+}
+
+function lancer_couteau(){
+  if (knifeFounded == true){
+    goToChapter('lancer');
+  } else {
+    goToChapter('carJacking');
+  }
+}
+
+function honnete(){
+  if (knifeFounded == true){
+    goToChapter('verite');
+  } else {
+    goToChapter('carJacking');
+  }
+}
+
 goToChapter("depart");
