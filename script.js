@@ -260,7 +260,7 @@ let chaptersObj = {
 
 function goToChapter(chapterName) {
   localStorage.setItem('sauvegarde', chapterName);
-  const son = new Audio('./assets/son_bouton.mp3');
+  const son = new Audio("./assets/son_bouton.mp3");
   son.currentTime = 0;
   son.play();
   knifeFounded = localStorage.getItem('arme_blanche');
@@ -364,4 +364,9 @@ function recommencer(){
 }
 
 chapterName = localStorage.getItem('sauvegarde');
-goToChapter(chapterName);
+
+if (chapterName == 'null'){
+  goToChapter('depart');
+} else {
+  goToChapter(chapterName);
+}
