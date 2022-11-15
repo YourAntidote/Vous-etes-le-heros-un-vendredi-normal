@@ -48,12 +48,12 @@ let chaptersObj = {
   },
   accident: {
     subtitle: "Mort - L'accident",
-    text: "Un conducteur imprudent arrive trop vite dans votre direction et n'a pas réagit assez vite pour s'arrêter et il vous rentre très vite dessus. Vous êtes mort",
+    text: "Un conducteur ne vous a pas vu arriver et vous avez pris un gros impact. Vous êtes mort",
     img: "./assets/Images/accident.png",
     options: [
       {
         text: "Recommencer 🔄",
-        action: "goToChapter('depart')",
+        action: "recommencer()",
       },
     ],
   },
@@ -61,6 +61,7 @@ let chaptersObj = {
     subtitle: "Distraction",
     text: "Vous avez réussi à le distraire et vous profitez de l'occasion pour y sauter dessus.",
     img: "./assets/Images/attaque.jpg",
+    video: "./assets/vision_combat.mp4",
     options: [
       {
         text: "À l'attaaaaque! 🤛💨",
@@ -86,11 +87,11 @@ let chaptersObj = {
   arreter: {
     subtitle: "Victoire - Arrêter",
     text: "Les autorités sont arrivées juste à temps. Le cambrioleur est arrêté et vous êtes sain et sauf.",
-    img: "./assets/Images/arreter.png",
+    video: "./assets/voiture_police.mp4",
     options: [
       {
         text: "Recommencer 🔄",
-        action: "goToChapter('depart')",
+        action: "recommencer()",
       },
     ],
   },
@@ -194,7 +195,7 @@ let chaptersObj = {
     options: [
       {
         text: "Recommencer 🔄",
-        action: "goToChapter('depart')",
+        action: "recommencer()",
       },
     ],
   },
@@ -239,7 +240,7 @@ let chaptersObj = {
     options: [
       {
         text: "Recommencer 🔄",
-        action: "goToChapter('depart')",
+        action: "recommencer()",
       },
     ],
   },
@@ -250,7 +251,7 @@ let chaptersObj = {
     options: [
       {
         text: "Recommencer 🔄",
-        action: "goToChapter('depart')",
+        action: "recommencer()",
       },
     ],
   },
@@ -258,20 +259,42 @@ let chaptersObj = {
 
 
 function goToChapter(chapterName) {
+  localStorage.setItem('sauvegarde', chapterName);
+  const son = new Audio('./assets/son_bouton.mp3');
+  son.currentTime = 0;
+  son.play();
+  knifeFounded = localStorage.getItem('arme_blanche');
+   
+
   let chapitreTitre = chaptersObj[chapterName]["subtitle"];
   let chapitreTexte = chaptersObj[chapterName]["text"];
   let chapitreImage = chaptersObj[chapterName]["img"];
   let chapitreOptions = chaptersObj[chapterName]["options"];
+  let chapitreVideo = chaptersObj[chapterName]["video"];
 
   let chapitreHTML = document.querySelector(".chapitre");
   let texteHTML = document.querySelector(".texte");
   let imageHTML = document.getElementById("image");
-
+  let videoHTML = document.getElementById("video");
   let button = document.querySelectorAll(".btn");
 
   chapitreHTML.innerHTML = chapitreTitre;
   texteHTML.innerHTML = chapitreTexte;
-  imageHTML.src = chapitreImage;
+
+  
+  if (chapitreVideo != undefined){
+    
+    videoHTML.src = chapitreVideo;
+    videoHTML.classList.remove("none");
+    imageHTML.classList.add("none");
+    videoHTML.playbackRate = 0.5;
+  } else {
+    imageHTML.src = chapitreImage;
+    videoHTML.classList.add("none");
+    imageHTML.classList.remove("none");
+  }
+
+
 
   for (let index = 0; index <= 2; index++) {
     if (chapitreOptions[index] != undefined) {
@@ -284,17 +307,26 @@ function goToChapter(chapterName) {
   }
 }
 
+
+let chapterName = 'depart';
+
+
 let knifeFounded = false;
+knifeFounded = localStorage.getItem('arme_blanche');
+console.log(knifeFounded);
 
 function objetcdc() {
   knifeFounded = true;
-  console.log("🔪");
-  goToChapter("question");
 
+  
+  console.log(knifeFounded +"2");
+  localStorage.setItem('arme_blanche', knifeFounded);
+  console.log(localStorage.getItem('arme_blanche') + "3");
+  goToChapter("question");
 }
 
 function chute(){
-  if (knifeFounded == true){
+  if (knifeFounded == 'true'){
     goToChapter('stab');
   } else {
     goToChapter('arreter');
@@ -302,15 +334,15 @@ function chute(){
 }
 
 function menssonge() {
-  if (knifeFounded == true){
-    goToChapter('verite');
+  if (knifeFounded == 'true'){
+    goToChapter('lancer');
   } else {
     goToChapter('mauvais_menteur');
   }
 }
 
 function lancer_couteau(){
-  if (knifeFounded == true){
+  if (knifeFounded == 'true'){
     goToChapter('lancer');
   } else {
     goToChapter('carJacking');
@@ -318,11 +350,18 @@ function lancer_couteau(){
 }
 
 function honnete(){
-  if (knifeFounded == true){
+  if (knifeFounded == 'true'){
     goToChapter('verite');
   } else {
     goToChapter('carJacking');
   }
 }
 
-goToChapter("depart");
+function recommencer(){
+  knifeFounded = false;
+  localStorage.setItem('arme_blanche', knifeFounded);
+  goToChapter('depart');
+}
+
+chapterName = localStorage.getItem('sauvegarde');
+goToChapter(chapterName);
