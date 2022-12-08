@@ -247,7 +247,7 @@ let chaptersObj = {
   bye: {
     subtitle: "Bye bye",
     text: "Vous avez pris la bonne décision de laisser le voleur prendre votre voiture, parce que rien n'est plus important que votre propre vive. Vous êtes sain et sauf",
-    video: "/assets/forrest_gump.mp4",
+    video: "./assets/forrest_gump.mp4",
     options: [
       {
         text: "Recommencer 🔄",
