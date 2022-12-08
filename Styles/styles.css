@@ -15,28 +15,32 @@ html {
   align-items: center;
   outline: solid 5px #fff;
   outline-offset: -10px;
+
 }
 
 body {
-  width: 550px;
-  height: 750px;
   position: absolute;
-  background-color: #c20a0a;
-  border-radius: 40px;
-  box-shadow: 10px 10px 10px 0px;
+  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: column;
-  border: solid 5px #fff;
+  align-items: center;
+  justify-content: center;
+
 }
 .game {
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px 0px;
+  border: solid 5px #fff;
+  background-color: #940000d9;
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
+    width: 550px;
+  height: 750px;
+  filter: blur(0px);
 }
 
 .logo {
@@ -81,6 +85,18 @@ img {
   outline: solid 2px #fff;
   outline-offset: 0px;
 }
+video {
+  object-fit: cover;
+  width: 500px;
+  height: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 50px;
+  outline: solid 2px #fff;
+  outline-offset: 0px;
+}
 .btn {
   height: 55px;
   width: 150px;
@@ -101,13 +117,98 @@ img {
 }
 
 button:hover {
-  background-color: #850000;
-  transition: 0.25s;
+  background-color: #ffffff71;
+  transition: 0.2s;
+  transform: translateY(1px);
 }
 button:checked {
   background-color: #fff;
 }
 
+
+.menu{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.option_image img{
+  width: 25px;
+  height: auto;
+  filter: contrast(100%);
+  transition: filter 0.1s;
+  outline: none;
+  opacity: 100%;
+}
+.option_checkbox:checked ~ .option_image {
+  opacity: .75;
+}
+.option_image:hover {
+  filter: contrast(75%);
+}
+#options{
+  display: none;
+}
+.ui_option{
+  position: absolute;
+  width: 175px;
+  height: 125px;
+  z-index: 4;
+  left: 16px;
+  top: 16px;
+  background-color: #a20000;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0px 10px 10px 10px;
+  box-shadow: 5px 9px 8px 0px #000000b1;
+
+}
+.audio{
+  width: 50px;
+  height: 39px;
+}
+.audio:hover {
+  background-color: rgb(166, 166, 166);
+  transition: background-color 0.2s;
+}
+.reset {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  width: 150px;
+  height: 39px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.reset:hover {
+  background-color: rgb(166, 166, 166);
+  transition: background-color 0.2s;
+}
+.exit_screen{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  opacity: .0;
+
+
+}
 .none {
   display: none;
+}
+
+.bye {
+  background: url('../assets/forrest_gump.gif') ;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.arreter{
+background-image: url('../assets/Images/lumiere_rouge_bleu.jpg');
+background-repeat: no-repeat;
+background-position: 0px 100%;
+background-size: cover;
+height: 100%;
+width: 100%;
 }
