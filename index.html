@@ -7,9 +7,23 @@
     <title>Un vendredi normal</title>
     <link rel="stylesheet" href="./Styles/styles.css" />
   </head>
-  <body>
-    
-    <div class="game">
+  <body class="test">
+   
+    <div class="game"> 
+      <div class="exit_screen none" style="z-index: 2;"></div>
+      <div class="menu">
+        <input type="checkbox" id="options" class="option_checkbox" style="z-index: 3;">     
+
+        <label class="option_image" for="options" style="z-index: 3;"><img src="./assets/Images/options.png" style="z-index: 3;"></label>
+
+        <div class="ui_option none" style="z-index: 4;">
+            <button class="audio">
+              <span class="sound-on" style="font-size: 20px;">🔊</span>
+              <span class="sound-off none" style="font-size: 20px;">🔈</span>
+            </button>
+            <button class="reset">Effacer ma partie</button>
+        </div>
+      </div>
       <div class="logo">Un lundi normal</div>
       <div class="chapitre"></div>
       <div class="texte"></div>
@@ -24,6 +38,7 @@
       </div>
 
     </div>
+    
     <script src="./script.js"></script>
   </body>
 </html>

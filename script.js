@@ -247,7 +247,7 @@ let chaptersObj = {
   bye: {
     subtitle: "Bye bye",
     text: "Vous avez pris la bonne décision de laisser le voleur prendre votre voiture, parce que rien n'est plus important que votre propre vive. Vous êtes sain et sauf",
-    img: "./assets/Images/voiture_au_loin.jpg",
+    video: "/assets/forrest_gump.mp4",
     options: [
       {
         text: "Recommencer 🔄",
@@ -257,12 +257,52 @@ let chaptersObj = {
   },
 };
 
+let audioOn =  document.querySelector('.sound-on'); 
+let audioOff =  document.querySelector('.sound-off'); 
+let btnAudio = document.querySelector('.audio'); 
+let audio_value = true;
+audio_value = localStorage.getItem('audio_is');
+
+
+btnAudio.addEventListener("click", function(){
+  audioOn.classList.toggle('none');
+  audioOff.classList.toggle('none');
+  if (audioOn.classList.contains('none') == true){
+    audio_value = false;
+    localStorage.setItem('audio_is', audio_value);
+  } else {
+    audio_value = true;
+    localStorage.setItem('audio_is', audio_value);
+  }
+});
+
+  if (audio_value == 'true' && audioOn.classList.contains('none') == true){
+    audioOn.classList.remove('none');
+    audioOff.classList.add('none');
+    console.log("logo on is on");
+  } else if (audio_value == 'false' && audioOff.classList.contains('none') == true) {
+    audioOn.classList.add('none');
+    audioOff.classList.remove('none');
+    console.log("logo off is on");
+  }
+
 
 function goToChapter(chapterName) {
-  localStorage.setItem('sauvegarde', chapterName);
+  let body = document.querySelector('body');
+  let lastClass = body.className;
+  body.classList.replace(lastClass, chapterName);
   const son = new Audio("./assets/son_bouton.mp3");
-  son.currentTime = 0;
-  son.play();
+
+  if (audio_value == 'true' || audio_value == true){
+    son.currentTime = 0;
+    son.play();
+
+  }
+
+  localStorage.setItem('sauvegarde', chapterName);
+
+  
+
   knifeFounded = localStorage.getItem('arme_blanche');
    
 
@@ -277,7 +317,6 @@ function goToChapter(chapterName) {
   let imageHTML = document.getElementById("image");
   let videoHTML = document.getElementById("video");
   let button = document.querySelectorAll(".btn");
-
   chapitreHTML.innerHTML = chapitreTitre;
   texteHTML.innerHTML = chapitreTexte;
 
@@ -313,7 +352,7 @@ let chapterName = 'depart';
 
 let knifeFounded = false;
 knifeFounded = localStorage.getItem('arme_blanche');
-console.log(knifeFounded);
+
 
 function objetcdc() {
   knifeFounded = true;
@@ -370,3 +409,30 @@ if (chapterName == 'null'){
 } else {
   goToChapter(chapterName);
 }
+
+let optionBtn = document.getElementById('options'); 
+let option_value = optionBtn.checked;
+let ui_option = document.querySelector('.ui_option');
+let exit_screen = document.querySelector('.exit_screen'); 
+
+exit_screen.addEventListener('click', function(){
+  ui_option.classList.toggle('none');
+  exit_screen.classList.toggle('none');
+  optionBtn.checked = false;
+})
+optionBtn.addEventListener('change', function(){
+  ui_option.classList.toggle('none');
+  exit_screen.classList.toggle('none');
+})
+
+let reset = document.querySelector('.reset');
+
+reset.addEventListener('click', function(){
+  ui_option.classList.toggle('none');
+  exit_screen.classList.toggle('none');
+  optionBtn.checked = false;
+  knifeFounded = false;
+  localStorage.setItem('arme_blanche', knifeFounded);
+  goToChapter('depart');
+})
+
